@@ -1,4 +1,4 @@
-# 0x01. Python - if/else, loops, functions
+# Python - if/else, loops, functions
 
 ## 📚 Description
 
@@ -47,34 +47,26 @@ To run a script:
 
 ```bash
 ./filename.py
-🔗 Resources
 
-    More Control Flow Tools (Python Docs)
+## 🔗 Resources
 
-    How to Use String Formatters in Python 3
+- 📖 [More Control Flow Tools (Python Docs)](https://docs.python.org/3/tutorial/controlflow.html#more-control-flow-tools)
+- 🧾 [How to Use String Formatters in Python 3](https://realpython.com/python-f-strings/)
+- 🎥 [Learn to Program 2: Looping (YouTube)](https://www.youtube.com/watch?v=6iF8Xb7Z3wQ)
+- 💡 [Pycodestyle Guide](https://pycodestyle.readthedocs.io/en/latest/)
+- 🧱 [IndentationError - Python Docs](https://docs.python.org/3/reference/lexical_analysis.html#indentation)
 
-    Learn to Program 2: Looping (YouTube)
+## 🧠 Examples Covered
 
-    Pycodestyle Guide
+- ✅ Checking if a number is positive or negative
+- 🔁 Printing numbers with `for` loops
+- 🔢 Using `range()` and `%` operators
+- 🔍 Getting the last digit of a number
+- 🛠️ Writing simple custom functions
+- 🚫 Using `break`, `continue`, and `pass`
 
-    IndentationError - Python Docs
+## ✍️ Author
 
-🧠 Examples Covered
-
-    Checking if a number is positive or negative
-
-    Printing numbers with for loops
-
-    Using range() and % operators
-
-    Getting the last digit of a number
-
-    Writing simple custom functions
-
-    Using break, continue, and pass
-
-✍️ Author
-
-Josniel Ramos
-Student at Holberton School
-GitHub: @jota009
+**Josniel Ramos**  
+🎓 Student at Holberton School  
+🔗 GitHub: [@jota009](https://github.com/jota009)
