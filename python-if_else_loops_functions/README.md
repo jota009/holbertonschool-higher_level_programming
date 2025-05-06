@@ -47,6 +47,7 @@ To run a script:
 
 ```bash
 ./filename.py
+```
 
 ## 🔗 Resources
 
