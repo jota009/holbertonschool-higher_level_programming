@@ -1,59 +1,39 @@
-🚀 Enhancing Code Quality and Efficiency with ChatGPT
+# Python - Hello, World 🌍🐍
 
-Welcome to a specialized module of our IT curriculum where we explore how artificial intelligence—specifically ChatGPT—can be seamlessly integrated into everyday coding practices to elevate software development.
-📌 Project Overview
+This project is part of my introduction to Python. It covers the basics of Python syntax, printing output, working with strings and numbers, and getting familiar with formatting and code style.
 
-This project focuses on two pivotal aspects of modern programming:
+## 📘 What I Learned
 
-    🔍 Debugging
+- Writing and executing basic Python scripts
+- Printing strings and variables using `print()`
+- Using `.format()` and f-strings for string formatting
+- Printing integers and floats without casting
+- String manipulation: slicing, concatenation, and repetition
+- Understanding how Python handles escape characters and newlines
+- Writing simple functions
+- Using comments and the shebang line (`#!/usr/bin/python3`)
+- Following PEP8 styling using `pycodestyle`
 
-    ⚙️ Automation
+## 📂 Tasks Completed
 
-By engaging in hands-on activities using ChatGPT, you’ll learn how to identify and fix code errors faster, as well as automate repetitive development tasks. This module is designed to make your workflow smarter, more efficient, and better aligned with industry practices.
-🎯 Objectives
-🐞 Debugging
+- `2-print.py`: Printed a basic string with proper syntax
+- `3-print_number.py`: Printed an integer using `.format()` without casting
+- `4-print_float.py`: Printed a float with 2 decimal places
+- `5-print_string.py`: Printed a string 3 times, then its first 9 characters
+- `6-concat.py`: Concatenated two strings using f-strings
+- `7-edges.py`: Extracted and printed specific parts of a string using slicing
+- `8-concat_edges.py`: Combined parts of a string to form a custom sentence
+- `9-easter_egg.py`: Printed the Zen of Python using a one-liner
 
-    Use ChatGPT to identify, diagnose, and resolve coding errors.
+## 🧠 Skills Gained
 
-    Gain insights into common pitfalls across different programming languages.
+- Basic string and number manipulation
+- Python’s `print()` and formatting tools
+- File permissions and script execution
+- Writing clean and readable Python code
 
-    Enhance your ability to communicate problems clearly and implement effective fixes.
+## ✍️ Author
 
-🔁 Automation
-
-    Automate boilerplate code, documentation, and basic unit tests using AI.
-
-    Improve productivity by reducing time spent on repetitive tasks.
-
-    Focus more on creative and complex problem-solving.
-
-✅ Outcomes
-
-    Improved Debugging Skills: Build confidence in spotting and correcting bugs using AI-assisted methods.
-
-    Automation Proficiency: Learn to use ChatGPT to generate clean, structured, and reliable code faster.
-
-🛠️ Real-World Applications
-
-This project simulates real-world development environments, encouraging you to:
-
-    Use AI responsibly and efficiently.
-
-    Critically evaluate AI-generated solutions.
-
-    Think like a software engineer prepared for future AI-integrated workflows.
-
-🔍 Reminder
-
-    Always test, verify, and critically assess any code or suggestions provided by ChatGPT. AI is a powerful assistant—but you are the developer in control.
-
-🧠 Get Ready
-
-Transform how you write code:
-
-    Smarter
-
-    Faster
-
-    More efficient
-
+**Josniel Ramos**  
+Student at Holberton School  
+GitHub: [@jota009](https://github.com/jota009)
