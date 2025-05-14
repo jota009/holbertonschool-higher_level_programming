@@ -1,4 +1,4 @@
-# Python - Data Structures: Dictionaries, Sets, Lambda & Map 🧠🐍
+# Python -  More Data Structures: Set, Dictionary 🧠🐍
 
 This project builds on core Python data structures by introducing **dictionaries**, **sets**, and **functional programming tools** like `lambda`, `map()`, and `filter()`. It includes whiteboard-friendly logic tasks and interview-style exercises using Roman numerals, set operations, and dictionary transformations.
 
@@ -9,7 +9,7 @@ This project builds on core Python data structures by introducing **dictionaries
 - The difference between lists, sets, and dictionaries in Python
 - How and when to use `set()` and its common methods
 - How to access, update, and delete key/value pairs in a dictionary
-- Iterating over dictionaries and sets
+- Iterating over dictionaries and setss
 - The structure of a dictionary key and value
 - Using `lambda` functions for quick one-liners
 - Applying `map()` to process entire lists efficiently
