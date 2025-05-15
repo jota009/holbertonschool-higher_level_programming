@@ -9,7 +9,7 @@ This project builds on core Python data structures by introducing **dictionaries
 - The difference between lists, sets, and dictionaries in Python
 - How and when to use `set()` and its common methods
 - How to access, update, and delete key/value pairs in a dictionary
-- Iterating over dictionaries and setss
+- Iterating over dictionaries and sets
 - The structure of a dictionary key and value
 - Using `lambda` functions for quick one-liners
 - Applying `map()` to process entire lists efficiently
