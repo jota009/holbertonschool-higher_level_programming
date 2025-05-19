@@ -5,5 +5,3 @@
 class Square:
     """Represents a geometric square."""
     pass
-s = Square()
-print(s)
