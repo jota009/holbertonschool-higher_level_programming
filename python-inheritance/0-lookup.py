@@ -4,4 +4,4 @@
 
 def lookup(obj):
     """List object to be returned."""
-    return list(obj)
+    pass
