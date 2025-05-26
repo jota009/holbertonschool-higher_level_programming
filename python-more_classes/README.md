@@ -1,7 +1,5 @@
 # 🏷️ Python – More Classes and Objects
 
-![Project Status](https://img.shields.io/badge/status-100%25-brightgreen)
-
 This project dives deep into Python’s object-oriented features: defining classes, managing attributes and methods, and leveraging special (“dunder”) methods, properties, class/static methods, and more. We built and tested a `Rectangle` class through successive iterations, culminating in factories, comparison utilities, and instance counting.
 
 ---
