@@ -4,4 +4,4 @@
 
 def lookup(obj):
     """List object to be returned."""
-    return sorted
+    dir(obj)
