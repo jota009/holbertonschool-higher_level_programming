@@ -13,4 +13,3 @@ class BaseGeometry:
                 overridden by subclasses.
         """
         raise Exception("area() is not implemented")
-
