@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""This module takes a MyList class that inherits
-from list."""
+"""This module defines MyList, a list subclass with a sorted-print feature."""
+
 
 class MyList(list):
     """Custom list that can print itself in sorted order."""
