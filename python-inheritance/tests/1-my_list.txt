@@ -5,7 +5,7 @@
 >>> ml = MyList([3, 1, 2])
 >>> ml.print_sorted()
 [1, 2, 3]
->>> # original list must remain unchanged
+>>> # original list must remain unchanged after print_sorted
 >>> ml
 [3, 1, 2]
 
@@ -20,3 +20,15 @@
 >>> # a longer example
 >>> MyList([10, 5, 7, 5, 1]).print_sorted()
 [1, 5, 5, 7, 10]
+
+>>> # now test that append() works on MyList and print_sorted reflects it
+>>> ml.append(4)
+>>> ml
+[3, 1, 2, 4]
+>>> ml.print_sorted()
+[1, 2, 3, 4]
+
+>>> # append a smaller element
+>>> ml.append(0)
+>>> ml.print_sorted()
+[0, 1, 2, 3, 4]
