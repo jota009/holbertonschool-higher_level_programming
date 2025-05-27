@@ -1,34 +1,37 @@
->>> # import your class from 1-my_list.py
+>>> # import your class
 >>> MyList = __import__('1-my_list').MyList
 
->>> # a simple 3-element list
+>>> # original 3‐elem list
 >>> ml = MyList([3, 1, 2])
 >>> ml.print_sorted()
 [1, 2, 3]
->>> # original list must remain unchanged after print_sorted
 >>> ml
 [3, 1, 2]
 
->>> # empty list prints empty brackets
+>>> # empty list
 >>> MyList([]).print_sorted()
 []
 
->>> # duplicates stay and are sorted in place
+>>> # duplicates
 >>> MyList([2, 3, 1, 2]).print_sorted()
 [1, 2, 2, 3]
 
->>> # a longer example
+>>> # longer example
 >>> MyList([10, 5, 7, 5, 1]).print_sorted()
 [1, 5, 5, 7, 10]
 
->>> # now test that append() works on MyList and print_sorted reflects it
+>>> # test append() and sorted‐print
 >>> ml.append(4)
 >>> ml
 [3, 1, 2, 4]
 >>> ml.print_sorted()
 [1, 2, 3, 4]
 
->>> # append a smaller element
 >>> ml.append(0)
 >>> ml.print_sorted()
 [0, 1, 2, 3, 4]
+
+>>> # now append a negative and ensure it shows up first
+>>> ml.append(-5)
+>>> ml.print_sorted()
+[-5, 0, 1, 2, 3, 4]
