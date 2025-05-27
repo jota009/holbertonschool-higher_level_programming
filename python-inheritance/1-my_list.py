@@ -1,7 +1,4 @@
 #!/usr/bin/python3
-import sys
-
-
 """This module takes a MyList class that inherits
 from list."""
 

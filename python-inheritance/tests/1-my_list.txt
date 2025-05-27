@@ -1,12 +1,22 @@
+>>> # import your class from 1-my_list.py
 >>> MyList = __import__('1-my_list').MyList
+
+>>> # a simple 3-element list
 >>> ml = MyList([3, 1, 2])
 >>> ml.print_sorted()
 [1, 2, 3]
+>>> # original list must remain unchanged
 >>> ml
 [3, 1, 2]
 
+>>> # empty list prints empty brackets
 >>> MyList([]).print_sorted()
 []
 
+>>> # duplicates stay and are sorted in place
 >>> MyList([2, 3, 1, 2]).print_sorted()
 [1, 2, 2, 3]
+
+>>> # a longer example
+>>> MyList([10, 5, 7, 5, 1]).print_sorted()
+[1, 5, 5, 7, 10]
