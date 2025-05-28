@@ -56,9 +56,9 @@ class Dog(Animal):
 # Usage
 d = Dog()
 print(d.speak())  # → Woof!
-
+```
 ---
 
-✍️ **Author**
+- ✍️ **Author**
 **Josniel Ramos** • Student at Holberton School
 GitHub: [@jota009](https://github.com/jota009)
