@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Module that defines the BaseGeometry class."""
+"""BaseGeometry module with area() stub and integer_validator()."""
 
 
 class BaseGeometry:
-    """Base class for geometry objects."""
+    """Base class for geometry shapes; area() must be overridden."""
 
     def area(self):
         """Compute the area of the geometry.
