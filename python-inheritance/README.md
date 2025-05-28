@@ -1,43 +1,64 @@
+<!-- Project badge: 100% -->
+
 # Python - Inheritance 🔗🐍
 
 ## 📚 Resources
 
 - Official Python tutorial on [Inheritance](https://docs.python.org/3/tutorial/classes.html#inheritance)
 - Real Python guide on [Multiple Inheritance](https://realpython.com/python3-object-oriented-programming/#multiple-inheritance)
-- Holberton School’s **Learn to Program 10: Inheritance & Magic Methods**
+- Holberton School’s **Learn to Program 10 – Inheritance & Magic Methods**
+
+---
 
 ## 🎯 Learning Objectives
 
+By the end of this project, you’ll be able to explain to anyone—without Google:
+
 - **Superclass / Base class / Parent class** vs **Subclass**
-- How to inspect all attributes and methods of a class or instance
-- When and how an instance can receive new attributes dynamically
-- How to declare a class that inherits from one or multiple base classes
-- The default parent of all Python classes (`object`)
-- How to override inherited methods or attributes
-- Which members are available to subclasses by default
-- The purpose and benefits of inheritance
-- When and how to use `isinstance`, `issubclass`, `type` and `super()`
+- How to list all attributes and methods of a class or instance
+- When and how an instance can receive new attributes at runtime
+- How to inherit a class from one or more base classes
+- The default base of every Python class (`object`)
+- How to override an inherited method or attribute
+- Which members (attributes/methods) subclasses inherit by default
+- The purpose and benefits of inheritance in OOP
+- When and how to use the built-ins: `isinstance()`, `issubclass()`, `type()` and `super()`
+
+---
 
 ## ⚙️ Requirements
 
 - **Editors**: `vi`, `vim`, or `emacs`
 - **Interpreter**: Ubuntu 20.04 LTS with Python 3.8.5
-- All files must:
+- All your files must:
   - End with a single newline
-  - Start with `#!/usr/bin/python3`
-  - Be PEP8‐compliant (tested with `pycodestyle` v2.7.*)
-  - Be executable and have their length verified by `wc`
+  - Start with the shebang `#!/usr/bin/python3`
+  - Be executable (`chmod +x`)
+  - Follow PEP8 styling (checked with `pycodestyle` v2.7.*)
+  - Be measured by file-length checks via `wc`
 
-## 🛠️ Examples
+---
 
-### 1. Exact class check (`is_same_class`)
+## 🛠️ Quick Example
 
 ```python
->>> from is_same_class import is_same_class
->>> class A: pass
->>> class B(A): pass
+#!/usr/bin/python3
+class Animal:
+    """Base class for all animals."""
+    def speak(self):
+        return "…sound…"
 
->>> is_same_class(A(), A)
-True
->>> is_same_class(B(), A)    # subclasses don’t match exactly
-False
+class Dog(Animal):
+    """Dog subclass overrides speak()."""
+    def speak(self):
+        return "Woof!"
+
+# Usage
+d = Dog()
+print(d.speak())  # → Woof!
+
+---
+
+✍️ **Author**
+**Josniel Ramos** • Student at Holberton School
+GitHub: [@jota009](https://github.com/jota009)
