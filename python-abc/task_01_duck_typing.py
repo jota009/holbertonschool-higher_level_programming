@@ -94,5 +94,5 @@ if __name__ == "__main__":
     print("Circle(3):")
     shape_info(c)
     print("---")
-    print("Rectangle(4, 5):")
+    print("Rectangle(4,5):")
     shape_info(r)
