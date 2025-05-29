@@ -46,9 +46,8 @@ class Circle(Shape):
         self.radius = radius
 
     def area(self):
-        """
-        Return pi times radius to the square root
-        """
+        """Return π times the square of the radius."""
+
         return math.pi * (self.radius ** 2)
 
     def perimeter(self):
@@ -64,7 +63,7 @@ class Rectangle(Shape):
 
         Args:
             width (int or float): the rectangle's width
-            heigh (int or float): the rectangle's height
+            height (int or float): the rectangle's height
         """
         self.width = width
         self.height = height
@@ -82,7 +81,7 @@ def shape_info(shape):
     """Print area and perimeter of any duck-typed Shape.
 
     Args:
-        shape: and object implementing .area() and .perimeter()
+        shape: an object implementing .area() and .perimeter()
     """
     print(f"Area: {shape.area()}")
     print(f"Perimeter: {shape.perimeter()}")
