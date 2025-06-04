@@ -1,4 +1,14 @@
 #!/usr/bin/python3
+"""
+Module: 12-pascal_triangle
+
+Defines a function to generate Pascal's triangle.
+
+The pascal_triangle(n) function returns a list of lists of integers
+representing the first n rows of Pascal's triangle.
+"""
+
+
 def pascal_triangle(n):
     """
     Returns a list of lists of integers representing
