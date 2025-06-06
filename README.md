@@ -1,14 +1,24 @@
-Holberton School – Higher Level Programming 💻🐍
+# Holberton School – Higher Level Programming 💻🐍
 
-This repository contains my solutions to the Higher Level Programming projects at Holberton School, using Python 3. These projects reinforce foundational concepts in programming, from basic syntax up through object-oriented design, testing, and modular architecture.
-🗂️ Projects
+This repository contains my solutions to the Higher Level Programming projects at Holberton School, using Python 3.
+These projects reinforce foundational concepts in programming—from basic syntax up through object-oriented design, testing, data structures, serialization, and modular architecture.
+
+---
+
+## 🗂️ Projects
+
+---
+
 ### 📘 `python-hello_world`
-My introduction to Python programming. I learned:
+My introduction to Python programming.
+I learned:
 - ✨ Writing and running Python scripts with `#!/usr/bin/python3`
 - 🖨️ Printing strings, integers, and floats without casting
 - 🎨 String formatting using `.format()` and f-strings
 - 🔪 String slicing, concatenation, and repetition
 - 📏 Setting file permissions and following PEP8 with `pycodestyle`
+
+---
 
 ### 📗 `python-if_else_loops_functions`
 Deep dive into conditionals, loops, and functions:
@@ -18,111 +28,108 @@ Deep dive into conditionals, loops, and functions:
 - 🆚 Using `ord()` and `chr()` for character tests
 - 🎲 Classic logic puzzles like FizzBuzz
 
+---
 
-🎚️ Control Flow
+### 📂 `python-import_modules`
+- 📦 Importing and reusing code across files/modules
+- 🗃️ Organizing packages with `__init__.py`
+- 🧾 Using `__name__ == "__main__"` for script entry points
 
-    Conditionals: if, elif, else
+---
 
-    Loops: for, while
+### 🗃️ `python-data_structures`
+Fundamental data types and transformations:
+- 📋 Lists (mutable), tuples (immutable), sets (unique)
+- 🔑 Dictionaries for key-value mapping
+- 🛠️ List/dict comprehensions for concise code
+- 🔁 Basic matrix manipulations
 
-    Loop controls: break, continue
+---
 
-    Ternary: <true> if <cond> else <false>
+### 🧩 `python-more_data_structures`
+Advanced data structures and algorithms:
+- ➕ Set operations: union, intersection, difference
+- 📊 Dictionary iteration and manipulation
+- 🏷️ Deep dives into comprehensions and sorting
+- 📝 Handling complex data collections
 
-    Short-circuit: and / or
+---
 
-🗄️ Data Structures
+### 🏛️ `python-classes`
+Object-oriented programming essentials:
+- 👤 Defining classes, instantiating objects
+- 🔐 Private, public, and protected attributes
+- 🏗️ Constructors, destructors, and special methods
+- 🏷️ Properties and custom string representations
 
-    Lists: mutable ordered sequences
+---
 
-    Tuples: immutable ordered sequences
+### 🧬 `python-inheritance`
+- 🔗 Building class hierarchies via inheritance
+- 🎨 Overriding parent methods for custom behavior
+- 🦆 Duck typing and polymorphism
+- 👑 Using `super()` and Method Resolution Order (MRO)
 
-    Sets: unordered collections of unique elements
+---
 
-    Dictionaries: key → value mappings
+### ⏬ `python-exceptions`
+- 🛑 Handling runtime errors with `try/except/else/finally`
+- 🚨 Raising custom exceptions
+- 📏 Writing robust, fail-safe functions
 
-    Comprehensions: concise syntax for building lists/sets/dicts
+---
 
-🛑 Errors & Exceptions
+### 🧪 `python-test_driven_development`
+- 📜 Writing and running doctests/unittests
+- 🧪 Using assertions to check code correctness
+- ✅ Structuring projects for testability
+- 🗃️ Organizing test suites in a `tests/` folder
 
-    Built-in exceptions: ValueError, TypeError, ZeroDivisionError
+---
 
-    try / except / else / finally for robust handling
+### 🗂️ `python-input_output`
+- 📖 Reading from and writing to files (with context managers)
+- ✏️ Appending, overwriting, and reading text files
+- 🔤 Encoding best practices (`UTF-8`)
+- 🗣️ Handling command-line arguments with `sys.argv`
+- 📄 JSON serialization with the `json` module
 
-    Raising your own: raise ValueError("…")
+---
 
-    Clean-up actions in finally
+### 🧷 `python-serialization`
+- 🔄 Converting Python objects to/from JSON, Pickle, CSV, and XML
+- 💾 Saving and restoring program data in multiple formats
+- 🗂️ Working with custom object serialization
+- ⚠️ Understanding data safety, type conversion, and security
 
-🧪 Test-Driven Development
+---
 
-    Doctests in tests/*.txt, run with:
+### 🎭 `python-abstract_classes`
+- 🏛️ Defining abstract classes and methods with `abc`
+- 🦆 Implementing interfaces and duck typing
+- 🧬 Subclassing built-in types for custom behavior
+- ⚡ Method overriding, multiple inheritance, and mixins
+- 🏗️ Designing modular, extensible OOP architectures
 
-python3 -m doctest ./tests/*
+---
 
-Unittest / pytest modules, run with:
+## 📝 General Skills Learned
 
-python3 -m unittest tests.my_test_module
+- ✅ Clean, modular Python code organization
+- 🔄 Understanding control flow and built-in functions
+- 🛑 Applying error handling with exceptions
+- 🧪 Writing and running tests (doctest, unittest)
+- 🐍 Embracing Pythonic idioms and style guidelines
+- 📦 Splitting code into modules and packages
+- 📄 Saving and sharing data with various serialization formats
+- 🏗️ Object-oriented design and advanced class features
 
-Docstring checks via:
+---
 
-    python3 -c 'print(__import__("my_module").__doc__)'
+## ✍️ Author
 
-    Edge-case coverage and style enforcement with pycodestyle
-
-📦 Modules & Imports
-
-    Splitting code into modules (.py files)
-
-    Import patterns:
-
-        import module
-
-        from package import submodule
-
-    Organizing packages with __init__.py
-
-    Checking module docstrings at runtime:
-
-    python3 -c 'print(__import__("my_module").__doc__)'
-
-🤖 Classes & Objects
-
-    Class vs. Instance: blueprint vs. concrete object
-
-    Attributes: public, protected (_attr), private (__attr)
-
-    The self reference in instance methods
-
-    Special methods (dunders) for built-in hooks:
-
-        __init__ (constructor)
-
-        __str__ / __repr__ (string representations)
-
-        __del__ (cleanup)
-
-    Properties: @property getters and @x.setter for validation
-
-    Class methods (@classmethod) as alternative constructors
-
-    Static methods (@staticmethod) for utility routines
-
-    OOP principles: encapsulation, abstraction, and dynamic attribute binding
-
-📎 General Skills Learned
-
-    ✅ Clean, modular Python code organization
-
-    🔄 Understanding control flow and built-in functions
-
-    🛑 Applying error handling with exceptions
-
-    🧪 Writing and running tests (doctest, unittest)
-
-    🐍 Embracing Pythonic idioms and style guidelines
-
-
-✍️ Author
 Josniel Ramos
 Student at Holberton School
-GitHub: @jota009
+[GitHub: @jota009](https://github.com/jota009)
+
+---
