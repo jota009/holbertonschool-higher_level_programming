@@ -1,5 +1,3 @@
-# task_02_requests.py
-
 import requests
 
 
