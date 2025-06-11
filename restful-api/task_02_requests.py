@@ -27,7 +27,7 @@ def fetch_and_save_posts():
 
         posts_list = [
             {"id": post["id"], "title": post["title"], "body": post["body"]}
-            for post in data:
+            for post in data
         ]
 
         with open("posts.csv", mode="w", newline="") as csvfile:
