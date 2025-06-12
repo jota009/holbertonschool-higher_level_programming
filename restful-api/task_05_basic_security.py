@@ -15,7 +15,7 @@ from flask_jwt_extended import (
 
 app = Flask(__name__)
 
-app.config['JWT_SECRETE_KEY'] = "super-secret.key"
+app.config['JWT_SECRET_KEY'] = "super-secret.key"
 users = {
     "user1": {
         "username": "user1",
@@ -70,7 +70,7 @@ def login():
     token = create_access_token(identity={
         "username": username, "role": user["role"]
         })
-    return jsonify(access_token=token)
+    return jsonify({"access_token": token})
 
 
 @app.route("/jwt-protected")
