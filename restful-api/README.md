@@ -1,4 +1,4 @@
-# 🌐 RESTful API – Higher Level Programming
+# 🌐 RESTful API
 
 ## Introduction
 
