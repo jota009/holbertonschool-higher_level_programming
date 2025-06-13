@@ -103,5 +103,30 @@ def handle_jwt_errors(e):
     return jsonify({"error": "Authentication error"}), 401
 
 
+@jwt.unauthorized_loader
+def unauthorized_callback(msg):
+    return jsonify({"error": "Authentication error"}), 401
+
+
+@jwt.invalid_token_loader
+def invalid_token_callback(msg):
+    return jsonify({"error": "Authentication error"}), 401
+
+
+@jwt.expired_token_loader
+def expired_token_callback(jwt_header, jwt_payload):
+    return jsonify({"error": "Authentication error"}), 401
+
+
+@jwt.needs_fresh_token_loader
+def needs_fresh_token_callback(jwt_header, jwt_payload):
+    return jsonify({"error": "Authentication error"}), 401
+
+
+@jwt.revoked_token_loader
+def revoked_token_callback(jwt_header, jwt_payload):
+    return jsonify({"error": "Authentication error"}), 401
+
+
 if __name__ == "__main__":
     app.run()
