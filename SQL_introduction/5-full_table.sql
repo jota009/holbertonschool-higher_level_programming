@@ -5,7 +5,7 @@ SELECT
     IS_NULLABLE AS 'Null',
     COLUMN_KEY AS 'Key',
     COLUMN_DEFAULT AS 'Default',
-    EXTRA AS EXTRA
+    EXTRA AS Extra
 FROM information_schema.COLUMNS
 WHERE TABLE_SCHEMA = DATABASE()
     AND TABLE_SCHEMA = 'first_table'
