@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-List all states from the databsse hbtn_0e_usa
+List all states from the database hbtn_0e_usa
 Usage: ./0-select_states.py <username> <password> <database>
 """
 
@@ -15,7 +15,7 @@ if __name__ == "__main__":
     passwd = sys.argv[2]
     db_name = sys.argv[3]
 
-    # Connet MySQL server on localhost at port 3306
+    # Connect MySQL server on localhost at port 3306
     db = MySQLdb.connect(
         host="localhost",
         port=3306,
@@ -36,5 +36,5 @@ if __name__ == "__main__":
 
     # Clean up
     cursor.close()
-    db.close
+    db.close()
 
