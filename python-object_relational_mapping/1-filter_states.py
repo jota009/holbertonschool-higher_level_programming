@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Lists all states with names starting with 'N' from the database hbtn_0e_0_usa
-Usage: ./filter_states.py <username> <password> <database>
+Usage: ./1-filter_states.py <username> <password> <database>
 """
 
 
@@ -24,7 +24,7 @@ if __name__ == "__main__":
         db=db_name
     )
 
-    # Create cursos and execute query
+    # Create cursor and execute query
     cursor = db.cursor()
     cursor.execute("SELECT * FROM states WHERE name LIKE 'N%' ORDER BY id ASC")
 
