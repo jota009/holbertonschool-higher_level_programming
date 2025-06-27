@@ -8,7 +8,7 @@ CREATE USER IF NOT EXISTS 'user_0d_2'@'localhost'
 IDENTIFIED BY 'user_0d_2_pwd';
 
 -- 3. Grant only SELECT on the new database
-GRANT SELECT ON hbtn_0c_2.* TO 'user_0d_2'@'localhost';
+GRANT SELECT ON hbtn_0d_2.* TO 'user_0d_2'@'localhost';
 
 -- 4. Reload privileges so everything takes effect now
 FLUSH PRIVILEGES;
