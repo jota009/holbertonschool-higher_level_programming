@@ -10,7 +10,6 @@ IDENTIFIED BY
 GRANT ALL PRIVILEGES
     ON *.*
     TO 'user_0d_1'@'localhost'
-    WITH GRANT OPTION; -- allows the user to grant privileges to others
 
 -- 3. Reload the privilege tables so changes take effect immediately
 FLUSH PRIVILEGES;
