@@ -10,6 +10,10 @@ import MySQLdb
 import sys
 
 if __name__ == "__main__":
+    # Get raw sate-name argument and strip whitespace
+    raw_state = sys.argv[4]
+    state_name = raw_state.strip()
+
     # Get command-line arguments
     user = sys.argv[1]
     passwd = sys.argv[2]
