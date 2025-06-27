@@ -27,7 +27,10 @@ if __name__ == "__main__":
 
     # Create cursor and execute query (with.format() as required)
     cursor = db.cursor()
-    query = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(state_name)
+    query = (
+        "SELECT * FROM states WHERE/"
+        "name = '{}' ORDER BY id ASC".format(state_name)
+        )
     cursor.execute(query)
 
     # Fetch and print results
