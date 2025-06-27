@@ -25,15 +25,15 @@ if __name__ == "__main__":
         db=db_name
     )
 
-# Create cursor and execute query (with.format() as required)
-cursor = db.cursor()
-query = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(state_name)
-cursor.execute(query)
+    # Create cursor and execute query (with.format() as required)
+    cursor = db.cursor()
+    query = "SELECT * FROM states WHERE name = '{}' ORDER BY id ASC".format(state_name)
+    cursor.execute(query)
 
-# Fetch and print results
-for row in cursor.fetchall():
-    print(row)
+    # Fetch and print results
+    for row in cursor.fetchall():
+        print(row)
 
-# Close connection
-cursor.close()
-db.close()
+    # Close connection
+    cursor.close()
+    db.close()
