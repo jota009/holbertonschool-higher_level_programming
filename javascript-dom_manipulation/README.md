@@ -1,4 +1,3 @@
-JAVASCRIPT DOM
 # JavaScript DOM Manipulation Project
 
 ## 🌟 Project Overview
