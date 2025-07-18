@@ -39,7 +39,7 @@ def load_products_sql():
         conn.close()
     return products
 
-app.route('/products')
+@app.route('/products')
 def products():
     source = request.args.get('source', '').lower()
     id_str = request.args.get('id', None)
