@@ -25,7 +25,7 @@ def load_products_sql():
         conn = sqlite3.connect('products.db')
         conn.row_factory = sqlite3.Row
         cursor = conn.cursor()
-        cursor.execute('SELECT id, name, category, price FROM Porducts;')
+        cursor.execute('SELECT id, name, category, price FROM Products;')
         for row in cursor.fetchall():
             products.append({
                 'id': row['id'],
@@ -34,7 +34,7 @@ def load_products_sql():
                 'price': row['price']
             })
     except sqlite3.Error as e:
-        print("f[DB ERROR] {e}")
+        print(f"[DB ERROR] {e}")
     finally:
         conn.close()
     return products
