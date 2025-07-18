@@ -8,9 +8,9 @@ def load_products_json():
     with open('products.json') as f:
         return json.load(f)
 
-def load_products_cvs():
+def load_products_csv():
     products = []
-    with open('products.csv', newLine='') as f:
+    with open('products.csv', newline='') as f:
         reader = csv.DictReader(f)
         for row in reader:
             row['id'] = int(row['id'])
